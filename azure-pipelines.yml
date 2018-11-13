@@ -2,10 +2,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core?view=vsts
 
 pool:
-  vmImage: 'Ubuntu 16.04'
+  vmImage: 'macOS-10.14' # other options: 'vs2017-win2016','ubuntu-16.04' 
   
 variables:
-  buildConfiguration: 'Release'
+  buildConfiguration: 'Release'pool:
 
 steps:
 - script: |
